@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014.08.21 09:12:30.125.cpp,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\Unit1.cpp=C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\mainform.cpp</Transaction>
+    <Transaction>2014.08.21 09:12:30.125.h,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\Unit1.h=C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\mainform.h</Transaction>
+    <Transaction>2014.08.21 09:12:30.125.dfm,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\Unit1.dfm=C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\mainform.dfm</Transaction>
+    <Transaction>2014.08.21 09:12:35.031.cbproj,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\Project1.cbproj=C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\projector.cbproj</Transaction>
+    <Transaction>2014.08.21 09:13:22.156.cpp,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\mainform.cpp=P:\code\projector\mainform.cpp</Transaction>
+    <Transaction>2014.08.21 09:13:22.156.h,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\mainform.h=P:\code\projector\mainform.h</Transaction>
+    <Transaction>2014.08.21 09:13:22.156.dfm,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\mainform.dfm=P:\code\projector\mainform.dfm</Transaction>
+    <Transaction>2014.08.21 09:13:22.781.cbproj,C:\Documents and Settings\User1\Мои документы\RAD Studio\Projects\projector.cbproj=P:\code\projector\projector.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
