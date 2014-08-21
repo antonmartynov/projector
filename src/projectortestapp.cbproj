@@ -57,6 +57,22 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
+			<ResFiles Include="projectortestapp.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
+			<CppCompile Include="screencoordinates.cpp">
+				<DependentOn>screencoordinates.h</DependentOn>
+				<BuildOrder>5</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="resolution.cpp">
+				<DependentOn>resolution.h</DependentOn>
+				<BuildOrder>6</BuildOrder>
+			</CppCompile>
+			<CppCompile Include="mainform.cpp">
+				<Form>Form1</Form>
+				<DependentOn>mainform.h</DependentOn>
+				<BuildOrder>2</BuildOrder>
+			</CppCompile>
 			<CppCompile Include="surface.cpp">
 				<DependentOn>surface.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
@@ -68,22 +84,13 @@
 			<CppCompile Include="projectortestapp.cpp">
 				<BuildOrder>0</BuildOrder>
 			</CppCompile>
-			<CppCompile Include="mainform.cpp">
-				<Form>Form1</Form>
-				<DependentOn>mainform.h</DependentOn>
-				<BuildOrder>2</BuildOrder>
+			<CppCompile Include="projector.cpp">
+				<DependentOn>projector.h</DependentOn>
+				<BuildOrder>7</BuildOrder>
 			</CppCompile>
-			<ResFiles Include="projectortestapp.res">
-				<ModuleName>projectortestapp.res</ModuleName>
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
-			<CppCompile Include="screencoordinates.cpp">
-				<DependentOn>screencoordinates.h</DependentOn>
-				<BuildOrder>5</BuildOrder>
-			</CppCompile>
-			<CppCompile Include="resolution.cpp">
-				<DependentOn>resolution.h</DependentOn>
-				<BuildOrder>6</BuildOrder>
+			<CppCompile Include="dummyframegenerator.cpp">
+				<DependentOn>dummyframegenerator.h</DependentOn>
+				<BuildOrder>8</BuildOrder>
 			</CppCompile>
 			<FormResources Include="mainform.dfm"/>
 			<BuildConfiguration Include="Base">
